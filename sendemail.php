@@ -4,7 +4,7 @@ $name       = @trim(stripslashes($_POST['name']));
 $from       = @trim(stripslashes($_POST['email'])); 
 $subject    = @trim(stripslashes($_POST['subject'])); 
 $message    = @trim(stripslashes($_POST['message'])); 
-$to   		= 'fgauttron@cefim.eu';//replace with your email
+$to   		= 'name@domain.dot';//replace with your email
 
 $headers = 'MIME-Version: 1.0'."\n";
 $headers .= 'Content-type: text/plain; charset=iso-8859-1'."\n";
